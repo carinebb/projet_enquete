@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="projet.css"/>
+    
+</head>
+<body>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <label class="logo">Select text suite:</label>
+  <br></br>
+  <input list="browsers" value="tribute page">
+  
+  <datalist id="browsers">
+    <option value="tribute page">
+    <option value="tribate page">
+  </datalist>
+  </input>
+      <br></br>
+     <input type="button" onclick="alert('Hello World!')" value="Run test" class="run"></input> 
+  <br></br>
+      <input type="button" onclick="alert('Hello World!')" value="Test" class="T"></input>
+      <br></br>
+      <a href="">Ask For Help</a>
+  <div id="carre1"></div>
+  <div id="carre2"></div>
+  <div id="carre3"></div>
+  <h3>Test(s) failed</h3>
+  <h4>Test passed</h4> 
+  <h5>Test Excecuting</h5>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+  <h2></h2>
+  <p></p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+    <h1>Dr. Norman Borlaug
+        <p>The man who saved a billion lives</p>
+        
+    </h1>
+    <img class="photo" src="projet 1.jpg"/>
+    <p class="title">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
+    <p class="juf">
+    Here's a time line of Dr. Borlaug's life:
+    
+    <ul>
+        <li><br>1914 - Born in Cresco, Iowa</li>
+        <li><br>1933 - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
+        <li><br>1935 - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+        <li><br>1937 - Finishes university and takes a job in the US Forestry Service</li>
+        <li><br>1938 - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
+    </ul>
+    <b>"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."</b>
+    <footer>-- Indian Prime Minister Manmohan Singh</footer>
+    </p>
+    
+</body>
+</html>
